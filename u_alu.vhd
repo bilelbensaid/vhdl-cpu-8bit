@@ -13,7 +13,7 @@ entity ALU is
 end entity ALU;
 
 
-architecture flow of ALU is
+architecture behv of ALU is
 begin
 	p1:process(alu_sel, alu_in_A, alu_in_B)
 		begin	
@@ -31,4 +31,4 @@ begin
 			end case;
 	end process p1;
 
-end architecture flow;
+end architecture behv;
